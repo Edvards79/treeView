@@ -27,6 +27,5 @@ $app->router->get('/treeView', [SiteController::class, "treeView"]);
 $app->router->post('/login', [AuthController::class, "login"]);
 $app->router->post('/register', [AuthController::class, "register"]);
 $app->router->post('/logout', [AuthController::class, "logout"]);
-$app->router->post('/save', [AuthController::class, "save"]);
 
 $app->run();
